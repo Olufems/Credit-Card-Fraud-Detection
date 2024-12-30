@@ -1,0 +1,3172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_63f2696a38afd375c2eca5bbc9feb177 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_63f2696a38afd375c2eca5bbc9feb177" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_63f2696a38afd375c2eca5bbc9feb177 = L.map(
+                "map_63f2696a38afd375c2eca5bbc9feb177",
+                {
+                    center: [38.5432528213, -90.23132507832193],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_05dc6140b3ddcab6ba45d4017fa829e4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            var circle_marker_b0f9742e70672b2f4c7284b0fc0b7278 = L.circleMarker(
+                [20.0827, -155.488],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_b0f9742e70672b2f4c7284b0fc0b7278.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: HI<br>City: Honokaa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2d86bf8d014265016feb19eb0cfce345 = L.circleMarker(
+                [26.3771, -81.7334],
+                {"bubblingMouseEvents": true, "color": "#fff500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff500ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_2d86bf8d014265016feb19eb0cfce345.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 3<br>State: FL<br>City: Bonita Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9525fe78a79e68d1ab20ef93be2c0b07 = L.circleMarker(
+                [27.5517, -81.8074],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9525fe78a79e68d1ab20ef93be2c0b07.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: FL<br>City: Wauchula
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_40b2e3f4b3cdf9b9d8479d991505ea93 = L.circleMarker(
+                [27.633, -80.4031],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_40b2e3f4b3cdf9b9d8479d991505ea93.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: FL<br>City: Vero Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_659b08b57962fe3ad1aed4c447fc9da7 = L.circleMarker(
+                [28.5697, -80.8191],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_659b08b57962fe3ad1aed4c447fc9da7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: FL<br>City: Titusville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8960f8e06cb53be1208c18990afa8127 = L.circleMarker(
+                [28.8989, -81.2473],
+                {"bubblingMouseEvents": true, "color": "#fff500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff500ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_8960f8e06cb53be1208c18990afa8127.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 3<br>State: FL<br>City: Deltona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f740f14dcc1a0a95ba25e9f58c5c9273 = L.circleMarker(
+                [30.2385, -90.8435],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f740f14dcc1a0a95ba25e9f58c5c9273.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: LA<br>City: Saint Amant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aad531ff467449fa2840b609096d3f83 = L.circleMarker(
+                [30.4066, -91.1468],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_aad531ff467449fa2840b609096d3f83.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: LA<br>City: Baton Rouge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_20c9cafcc1ebb47b7dbb3fc2504900bc = L.circleMarker(
+                [30.459, -90.9027],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_20c9cafcc1ebb47b7dbb3fc2504900bc.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: LA<br>City: Denham Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_048da6a8dee2f16e5f1ca5b49aa8d514 = L.circleMarker(
+                [30.4983, -88.3282],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_048da6a8dee2f16e5f1ca5b49aa8d514.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: AL<br>City: Grand Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e52132cfd1c78b07c45c22db962c95c = L.circleMarker(
+                [30.592, -97.2893],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1e52132cfd1c78b07c45c22db962c95c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: TX<br>City: Thrall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e2526887878c44f429c0c5728096733 = L.circleMarker(
+                [30.8635, -87.7644],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_2e2526887878c44f429c0c5728096733.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: AL<br>City: Bay Minette
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d823c470fd22aee2c90e304b3abf95de = L.circleMarker(
+                [30.8836, -84.3246],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d823c470fd22aee2c90e304b3abf95de.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: GA<br>City: Whigham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c7ef0ecc01c3152aed0d4455f1566a1e = L.circleMarker(
+                [30.8985, -87.1332],
+                {"bubblingMouseEvents": true, "color": "#ff6600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c7ef0ecc01c3152aed0d4455f1566a1e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 16<br>State: FL<br>City: Jay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9e8a783ce4ad1d0ac371a8ab4bd04213 = L.circleMarker(
+                [30.9, -94.7547],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9e8a783ce4ad1d0ac371a8ab4bd04213.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: TX<br>City: Camden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_38617efbcdfe0d4bc8a569d57fb57c8c = L.circleMarker(
+                [30.946, -83.2474],
+                {"bubblingMouseEvents": true, "color": "#fff500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff500ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_38617efbcdfe0d4bc8a569d57fb57c8c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 3<br>State: GA<br>City: Valdosta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9dad5644ed45fbaca7eb6592693df28f = L.circleMarker(
+                [30.9788, -84.7373],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9dad5644ed45fbaca7eb6592693df28f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: GA<br>City: Brinson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_46f9d81a85d9399b040422eef02f1a0d = L.circleMarker(
+                [31.086, -85.7192],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_46f9d81a85d9399b040422eef02f1a0d.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: AL<br>City: Hartford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc61651346e2c7033e8ed8d88e64480e = L.circleMarker(
+                [31.1569, -94.3871],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_bc61651346e2c7033e8ed8d88e64480e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: TX<br>City: Zavalla
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f4ef9be1389e28ad0dfbaa2e0d36796c = L.circleMarker(
+                [31.3826, -81.4312],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f4ef9be1389e28ad0dfbaa2e0d36796c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: GA<br>City: Darien
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6d01f0aae3f17e60d0ba3b51a483bb07 = L.circleMarker(
+                [31.4285, -90.8578],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6d01f0aae3f17e60d0ba3b51a483bb07.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: MS<br>City: Meadville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_763f96acca677fa96b97949a9a217f9b = L.circleMarker(
+                [31.6489, -82.1982],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_763f96acca677fa96b97949a9a217f9b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: GA<br>City: Surrency
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af9f13b498b2b91feec976578bfc60ef = L.circleMarker(
+                [31.8599, -102.7413],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_af9f13b498b2b91feec976578bfc60ef.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 2<br>State: TX<br>City: Notrees
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_95d1464795762edb4bb6aea77236c199 = L.circleMarker(
+                [31.924, -105.2099],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_95d1464795762edb4bb6aea77236c199.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: TX<br>City: Dell City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_441a07ead9e4a49f426ca8acbd944f49 = L.circleMarker(
+                [32.274, -104.0914],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_441a07ead9e4a49f426ca8acbd944f49.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: NM<br>City: Loving
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3b1789003a336868367636698351677f = L.circleMarker(
+                [32.2819, -98.5673],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_3b1789003a336868367636698351677f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: TX<br>City: Desdemona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_00e2f2bc4524da3f45b8bffce9ac3da6 = L.circleMarker(
+                [32.3739, -90.1293],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_00e2f2bc4524da3f45b8bffce9ac3da6.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: MS<br>City: Jackson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6958fb014b73e3ec488de6c9ef7a7548 = L.circleMarker(
+                [32.4122, -90.1207],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6958fb014b73e3ec488de6c9ef7a7548.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: MS<br>City: Ridgeland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af2ad5b1e84606ce872b066974f09294 = L.circleMarker(
+                [32.6064, -83.2095],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_af2ad5b1e84606ce872b066974f09294.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: GA<br>City: Allentown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1bf39fec1c4285346e0514b32d61a2b8 = L.circleMarker(
+                [32.7699, -96.743],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1bf39fec1c4285346e0514b32d61a2b8.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: TX<br>City: Dallas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_18fca48b4e4eb6c0b0840cde7784ad85 = L.circleMarker(
+                [32.9643, -96.6012],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_18fca48b4e4eb6c0b0840cde7784ad85.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: TX<br>City: Sachse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ce5964fd92e1a442c939d130562cf034 = L.circleMarker(
+                [33.3224, -86.9657],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ce5964fd92e1a442c939d130562cf034.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: AL<br>City: Bessemer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f217e6cf4dd068f760b8d9ecb18718db = L.circleMarker(
+                [33.3305, -105.6933],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f217e6cf4dd068f760b8d9ecb18718db.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: NM<br>City: Ruidoso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_41b64e9990a7f5a4e36d3afe6092a1a1 = L.circleMarker(
+                [33.3398, -92.7442],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_41b64e9990a7f5a4e36d3afe6092a1a1.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: AR<br>City: Smackover
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5eb2e660073b0cd4a436aee58793648e = L.circleMarker(
+                [33.4044, -96.2238],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_5eb2e660073b0cd4a436aee58793648e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: TX<br>City: Leonard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe9a0aea7595a9c346c058c3be7deee9 = L.circleMarker(
+                [33.4235, -96.3398],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_fe9a0aea7595a9c346c058c3be7deee9.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: TX<br>City: Trenton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_211c204cd96f2878244ae41c58e5940e = L.circleMarker(
+                [33.4783, -90.5142],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_211c204cd96f2878244ae41c58e5940e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: MS<br>City: Moorhead
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_decacddb1821eff322cf00b471cf089a = L.circleMarker(
+                [33.4816, -86.859],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_decacddb1821eff322cf00b471cf089a.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: AL<br>City: Birmingham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ba998c4cf487aa576dd965cc1cfdb05a = L.circleMarker(
+                [33.5494, -111.9565],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ba998c4cf487aa576dd965cc1cfdb05a.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: AZ<br>City: Paradise Valley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af07b31e148cf3e3d7a3f2e1e041364c = L.circleMarker(
+                [33.6372, -96.6184],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_af07b31e148cf3e3d7a3f2e1e041364c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 2<br>State: TX<br>City: Sherman
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d0c0595f422121035097f86091007f91 = L.circleMarker(
+                [33.6401, -116.5567],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d0c0595f422121035097f86091007f91.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: CA<br>City: Mountain Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_580dddd690f986bbb1db01cbd01e9a12 = L.circleMarker(
+                [33.6666, -101.5277],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_580dddd690f986bbb1db01cbd01e9a12.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: TX<br>City: Lorenzo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19ebd498117e68a84b46a8059fcb13cd = L.circleMarker(
+                [33.8155, -112.1202],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_19ebd498117e68a84b46a8059fcb13cd.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: AZ<br>City: Phoenix
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8b5542beb10537e30ff29657e5e462bf = L.circleMarker(
+                [34.0287, -118.4924],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_8b5542beb10537e30ff29657e5e462bf.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: CA<br>City: Santa Monica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_663e94a4d61ded5cbdc68b505bd21c60 = L.circleMarker(
+                [34.0326, -82.2027],
+                {"bubblingMouseEvents": true, "color": "#ff6600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_663e94a4d61ded5cbdc68b505bd21c60.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 16<br>State: SC<br>City: Bradley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2fe00b620031e46652865d223ba28dd7 = L.circleMarker(
+                [34.048, -85.9246],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_2fe00b620031e46652865d223ba28dd7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: AL<br>City: Gadsden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6af81a1a12a7aa7e73a46c86a8756ee4 = L.circleMarker(
+                [34.1248, -117.9031],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6af81a1a12a7aa7e73a46c86a8756ee4.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: CA<br>City: Azusa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e19cc80ee88075e4381173f68f833df7 = L.circleMarker(
+                [34.1556, -118.2322],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_e19cc80ee88075e4381173f68f833df7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: CA<br>City: Glendale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4fb2fe9c21a499901365a23a517fec72 = L.circleMarker(
+                [34.1832, -81.5324],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_4fb2fe9c21a499901365a23a517fec72.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: SC<br>City: Prosperity
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c0616750b459d29dc20c2d9894b39344 = L.circleMarker(
+                [34.2691, -95.9685],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c0616750b459d29dc20c2d9894b39344.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: OK<br>City: Lane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_39af35c5e442b217955b669f32cc295f = L.circleMarker(
+                [34.5715, -118.0231],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_39af35c5e442b217955b669f32cc295f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: CA<br>City: Palmdale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c5f0adad5404bba0d67a22e9a08bbced = L.circleMarker(
+                [34.6323, -89.8855],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c5f0adad5404bba0d67a22e9a08bbced.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: MS<br>City: Senatobia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5a780ff82088be207d37ff57330af36a = L.circleMarker(
+                [34.6689, -86.2296],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_5a780ff82088be207d37ff57330af36a.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: AL<br>City: Woodville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f625e7ae2057e3895bd14d581a3a9537 = L.circleMarker(
+                [34.847, -98.9836],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f625e7ae2057e3895bd14d581a3a9537.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: OK<br>City: Roosevelt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_28c72df2d0fbd2c81bc4d80e866cba95 = L.circleMarker(
+                [34.9298, -84.9885],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_28c72df2d0fbd2c81bc4d80e866cba95.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: GA<br>City: Varnell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9c3f153412e32c410f35ee873035fe97 = L.circleMarker(
+                [34.9572, -81.9916],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9c3f153412e32c410f35ee873035fe97.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: SC<br>City: Arcadia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_546f9632514eaee144c2e49644e98156 = L.circleMarker(
+                [35.0659, -89.1534],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_546f9632514eaee144c2e49644e98156.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: TN<br>City: Grand Junction
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fc020818daf4a46b6417b6ba1b891da7 = L.circleMarker(
+                [35.1836, -81.4552],
+                {"bubblingMouseEvents": true, "color": "#ffd400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd400ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_fc020818daf4a46b6417b6ba1b891da7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 6<br>State: NC<br>City: Grover
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7cc9cb0c662f73dd950d6a9ce428240b = L.circleMarker(
+                [35.2229, -89.5518],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7cc9cb0c662f73dd950d6a9ce428240b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: TN<br>City: Oakland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_87d03fbe175e604bf0897886bcd76144 = L.circleMarker(
+                [35.3757, -77.4193],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_87d03fbe175e604bf0897886bcd76144.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: NC<br>City: Grifton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_499943e71c077fe6f3c6807bc2b2fd3f = L.circleMarker(
+                [35.6665, -97.4798],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_499943e71c077fe6f3c6807bc2b2fd3f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: OK<br>City: Edmond
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_609c00bd18a5d739d37361be66a614fd = L.circleMarker(
+                [35.7382, -98.7388],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_609c00bd18a5d739d37361be66a614fd.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: OK<br>City: Thomas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6267723948ce58c0d9c35adc6b216429 = L.circleMarker(
+                [35.833, -97.436],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6267723948ce58c0d9c35adc6b216429.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: OK<br>City: Guthrie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_72fcf6f51798bf20ff839fda38429013 = L.circleMarker(
+                [35.8985, -97.2607],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_72fcf6f51798bf20ff839fda38429013.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: OK<br>City: Coyle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d007677ffc4b491d1d1555869ae75e11 = L.circleMarker(
+                [36.0788, -81.1781],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d007677ffc4b491d1d1555869ae75e11.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: NC<br>City: Moravian Falls
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0951bf13b1dd0771bc0d63b096ca7291 = L.circleMarker(
+                [36.1124, -78.6476],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_0951bf13b1dd0771bc0d63b096ca7291.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: NC<br>City: Creedmoor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0298ce161ea58af2ed095c6d4d9e20d8 = L.circleMarker(
+                [36.1486, -105.6648],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_0298ce161ea58af2ed095c6d4d9e20d8.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: NM<br>City: Llano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7db518ef4bcc30c89d12ae302511bb0 = L.circleMarker(
+                [36.3924, -91.9932],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_e7db518ef4bcc30c89d12ae302511bb0.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: AR<br>City: Viola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_21a70e9fc8bd991fb140d14662643bde = L.circleMarker(
+                [36.4539, -94.118],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_21a70e9fc8bd991fb140d14662643bde.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: AR<br>City: Pea Ridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d7dbd5de8679fc44eb4e69fdd855cc39 = L.circleMarker(
+                [36.4899, -79.4736],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d7dbd5de8679fc44eb4e69fdd855cc39.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: NC<br>City: Pelham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d653f5af92a74416ced8f1f40bef578d = L.circleMarker(
+                [36.5276, -93.9359],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d653f5af92a74416ced8f1f40bef578d.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: MO<br>City: Seligman
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a9abe4ae14eeb7f76d9ed2c75ac7eb5 = L.circleMarker(
+                [36.741, -108.351],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7a9abe4ae14eeb7f76d9ed2c75ac7eb5.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: NM<br>City: Kirtland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aadd320a52f74c217800764a616fe468 = L.circleMarker(
+                [36.802, -87.8286],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_aadd320a52f74c217800764a616fe468.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: KY<br>City: Cadiz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c19332a88c4cb7d50a6a87642a5fc375 = L.circleMarker(
+                [36.9688, -78.5615],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c19332a88c4cb7d50a6a87642a5fc375.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: VA<br>City: Drakes Branch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cad727d99f2a0493cf3aa5abb16ec446 = L.circleMarker(
+                [37.0581, -86.1938],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_cad727d99f2a0493cf3aa5abb16ec446.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: KY<br>City: Smiths Grove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_10ea93f3aad1236df5078fcb9fdd002e = L.circleMarker(
+                [37.1349, -77.7364],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_10ea93f3aad1236df5078fcb9fdd002e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: VA<br>City: Ford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_66f09c63648b6a51bbd145a04e00f77f = L.circleMarker(
+                [37.575, -88.9655],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_66f09c63648b6a51bbd145a04e00f77f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: IL<br>City: Goreville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_282fd8502d98aa2685370e256d00d914 = L.circleMarker(
+                [37.6848, -85.8784],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_282fd8502d98aa2685370e256d00d914.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: KY<br>City: Elizabethtown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e3d00cc51a5c2a8ca61dbd80cc6fb2fb = L.circleMarker(
+                [37.7681, -75.6664],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_e3d00cc51a5c2a8ca61dbd80cc6fb2fb.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: VA<br>City: Greenbush
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_244a2cef11c4e049b9771c64854b52f4 = L.circleMarker(
+                [37.8795, -82.7251],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_244a2cef11c4e049b9771c64854b52f4.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: KY<br>City: River
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_757194cbb16131dc93c5b913d2eb04ab = L.circleMarker(
+                [38.0174, -84.4854],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_757194cbb16131dc93c5b913d2eb04ab.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: KY<br>City: Lexington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dab116afb7e264b3936e9f7fd7327377 = L.circleMarker(
+                [38.0261, -97.6666],
+                {"bubblingMouseEvents": true, "color": "#ff4500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff4500ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_dab116afb7e264b3936e9f7fd7327377.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 19<br>State: KS<br>City: Burrton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6dc81878aac08d89c819fc00c6aa0f11 = L.circleMarker(
+                [38.097, -86.1723],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6dc81878aac08d89c819fc00c6aa0f11.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: IN<br>City: Central
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fcc240b420f52de1b34ee09f40aef7ff = L.circleMarker(
+                [38.2507, -85.7476],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_fcc240b420f52de1b34ee09f40aef7ff.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: KY<br>City: Louisville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_473a12e90c80b4c82ecae4238a421643 = L.circleMarker(
+                [38.2674, -76.4954],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_473a12e90c80b4c82ecae4238a421643.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: MD<br>City: Great Mills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bf9287f3e9f18cb71e4cfc8138d4952e = L.circleMarker(
+                [38.3511, -91.4867],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_bf9287f3e9f18cb71e4cfc8138d4952e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: MO<br>City: Owensville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8882957676390e5188ddccb38718f99e = L.circleMarker(
+                [38.4207, -79.4629],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_8882957676390e5188ddccb38718f99e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: VA<br>City: Doe Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8595933b919b64a006b9b22b47fdae0c = L.circleMarker(
+                [38.5095, -78.2638],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_8595933b919b64a006b9b22b47fdae0c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: VA<br>City: Etlan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_930fd36bfc3b1fed8303b5fd451b841a = L.circleMarker(
+                [38.5319, -93.9221],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_930fd36bfc3b1fed8303b5fd451b841a.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: MO<br>City: Blairstown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9966463f071f01b9d46b35926611cc31 = L.circleMarker(
+                [38.6207, -83.8067],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9966463f071f01b9d46b35926611cc31.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: KY<br>City: Maysville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f4b5b3fb0278264dc1142e9fe4c82990 = L.circleMarker(
+                [38.7735, -86.6285],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f4b5b3fb0278264dc1142e9fe4c82990.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: IN<br>City: Williams
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_982b5044ed9d71e26736ece658cb28fb = L.circleMarker(
+                [38.7894, -77.2818],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_982b5044ed9d71e26736ece658cb28fb.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: VA<br>City: Burke
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_217d255bd255088873d3763772df2861 = L.circleMarker(
+                [38.8582, -76.6145],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_217d255bd255088873d3763772df2861.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: MD<br>City: Harwood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2ebe2a5f800174092312dc31b41d7d8 = L.circleMarker(
+                [38.859, -77.0997],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_a2ebe2a5f800174092312dc31b41d7d8.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: VA<br>City: Arlington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d9ec914c428a68caac89a5131344f745 = L.circleMarker(
+                [38.8856, -77.1802],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d9ec914c428a68caac89a5131344f745.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: VA<br>City: Falls Church
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d45b589c6b02ed469fd5c290656be002 = L.circleMarker(
+                [38.8938, -86.5246],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d45b589c6b02ed469fd5c290656be002.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: IN<br>City: Oolitic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7fef462fba1e5b9c2f205c2e1b609967 = L.circleMarker(
+                [38.9757, -77.0282],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7fef462fba1e5b9c2f205c2e1b609967.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: DC<br>City: Washington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3af421afc79ccc001c2096d09fe67fa4 = L.circleMarker(
+                [38.9829, -93.9757],
+                {"bubblingMouseEvents": true, "color": "#fff500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff500ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_3af421afc79ccc001c2096d09fe67fa4.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 3<br>State: MO<br>City: Odessa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4f26f40063193602ac7c8720abdb6ae9 = L.circleMarker(
+                [39.0305, -76.5515],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_4f26f40063193602ac7c8720abdb6ae9.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: MD<br>City: Annapolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ca966e4b02dd24a5313001be0e458c85 = L.circleMarker(
+                [39.047, -122.9328],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ca966e4b02dd24a5313001be0e458c85.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: CA<br>City: Lakeport
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9683f27b7bce436d2081503a7b91cb28 = L.circleMarker(
+                [39.0945, -85.0638],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9683f27b7bce436d2081503a7b91cb28.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: IN<br>City: Moores Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_96b6d36823183a5c838dcf60684ba6ec = L.circleMarker(
+                [39.2048, -94.0259],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_96b6d36823183a5c838dcf60684ba6ec.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: MO<br>City: Camden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4065dba5c0787091f23e25793c97782a = L.circleMarker(
+                [39.2092, -76.6681],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_4065dba5c0787091f23e25793c97782a.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: MD<br>City: Linthicum Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cf97571d83f8144058019a927d542071 = L.circleMarker(
+                [39.224, -74.9942],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_cf97571d83f8144058019a927d542071.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: NJ<br>City: Heislerville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dfdb046853158d4ab24e80e5371574cb = L.circleMarker(
+                [39.39, -88.9597],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_dfdb046853158d4ab24e80e5371574cb.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: IL<br>City: Tower Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6343b259c3ff465de74b1e55152fd3a5 = L.circleMarker(
+                [39.485, -74.8776],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6343b259c3ff465de74b1e55152fd3a5.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: NJ<br>City: Richland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_593c638b8a6af69da30f842afba18f66 = L.circleMarker(
+                [39.5994, -105.0044],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_593c638b8a6af69da30f842afba18f66.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 2<br>State: CO<br>City: Littleton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f1e6738b34d9be71518b27d37347b9cb = L.circleMarker(
+                [39.6094, -100.4112],
+                {"bubblingMouseEvents": true, "color": "#ffd400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd400ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f1e6738b34d9be71518b27d37347b9cb.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 6<br>State: KS<br>City: Dresden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_96babb670f49a7bd240fc9f5e374c21d = L.circleMarker(
+                [39.6991, -78.1762],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_96babb670f49a7bd240fc9f5e374c21d.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: MD<br>City: Hancock
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9dc236f795ca23cedac38f6dcfd40881 = L.circleMarker(
+                [39.8616, -97.1825],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9dc236f795ca23cedac38f6dcfd40881.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: KS<br>City: Morrowville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_28c492025e5ebc0538d3b976026e9869 = L.circleMarker(
+                [39.8936, -79.7856],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_28c492025e5ebc0538d3b976026e9869.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: PA<br>City: Uledi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1830f60c9d0a48904909a076ac180666 = L.circleMarker(
+                [39.9636, -79.7853],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1830f60c9d0a48904909a076ac180666.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: PA<br>City: Keisterville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fc3bd96179b06cc35b5767b0635e86fb = L.circleMarker(
+                [39.9914, -80.4408],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_fc3bd96179b06cc35b5767b0635e86fb.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: PA<br>City: West Finley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d5c24138802a695bf78b4803bd3d03e6 = L.circleMarker(
+                [39.9934, -81.8024],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d5c24138802a695bf78b4803bd3d03e6.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: OH<br>City: Norwich
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_42fa09303ddbc8ae713681f15bc9fdcc = L.circleMarker(
+                [39.9972, -88.6962],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_42fa09303ddbc8ae713681f15bc9fdcc.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: IL<br>City: Cisco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ce816075d661ad46a0afda71d511a3ee = L.circleMarker(
+                [40.0113, -80.9701],
+                {"bubblingMouseEvents": true, "color": "#ffea00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ce816075d661ad46a0afda71d511a3ee.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 4<br>State: OH<br>City: Holloway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3a3abce9e0c04740ef80834a512ca5e3 = L.circleMarker(
+                [40.1159, -74.8536],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_3a3abce9e0c04740ef80834a512ca5e3.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: PA<br>City: Bristol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fa817bfcb43a0bac63f569ebfb3f0dc1 = L.circleMarker(
+                [40.1186, -87.2602],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_fa817bfcb43a0bac63f569ebfb3f0dc1.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: IN<br>City: Veedersburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da30cbdb85b06e5346374f01d86a532b = L.circleMarker(
+                [40.1362, -95.2138],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_da30cbdb85b06e5346374f01d86a532b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: MO<br>City: Mound City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8470175ef8a6841310b43891d5efc595 = L.circleMarker(
+                [40.333, -73.9809],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_8470175ef8a6841310b43891d5efc595.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: NJ<br>City: Monmouth Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6fd036e7acc89327e2ea2b62d5f84021 = L.circleMarker(
+                [40.3625, -87.6692],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6fd036e7acc89327e2ea2b62d5f84021.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: IL<br>City: Rossville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_02d71af246a83f3dfdc3a60071f997eb = L.circleMarker(
+                [40.3673, -79.1605],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_02d71af246a83f3dfdc3a60071f997eb.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: PA<br>City: Bolivar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d746c4e5a7304a612583162743fdc2b4 = L.circleMarker(
+                [40.4062, -84.5076],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d746c4e5a7304a612583162743fdc2b4.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: OH<br>City: Maria Stein
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2725e56d7f245cf469d7aee836cfaa1b = L.circleMarker(
+                [40.4931, -91.8912],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_2725e56d7f245cf469d7aee836cfaa1b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: MO<br>City: Luray
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7ee60f91053ea08a24181e01e1d50b03 = L.circleMarker(
+                [40.507, -123.9743],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7ee60f91053ea08a24181e01e1d50b03.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: CA<br>City: Carlotta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_08a5ef68115eb94b920d2bcbae65bad8 = L.circleMarker(
+                [40.5662, -80.2099],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_08a5ef68115eb94b920d2bcbae65bad8.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: PA<br>City: Leetsdale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_432f1de2356a734681409787e4b11e51 = L.circleMarker(
+                [40.6153, -79.4545],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_432f1de2356a734681409787e4b11e51.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: PA<br>City: Spring Church
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_479f75dc7d1c408e8b50223e6fd77da7 = L.circleMarker(
+                [40.6267, -96.7456],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_479f75dc7d1c408e8b50223e6fd77da7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: NE<br>City: Sprague
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c81d3dd636fd9b080e05097dc26813d6 = L.circleMarker(
+                [40.6284, -76.195],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c81d3dd636fd9b080e05097dc26813d6.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: PA<br>City: Cressona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3fa65308e212213c1383dc40ab7a58d9 = L.circleMarker(
+                [40.6761, -91.0391],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_3fa65308e212213c1383dc40ab7a58d9.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: IL<br>City: Lomax
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ca3f8303e6f25ac4f4d6646b248d09eb = L.circleMarker(
+                [40.6774, -74.4968],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ca3f8303e6f25ac4f4d6646b248d09eb.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: NJ<br>City: Stirling
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c854a1897909256d63087cbb8403d73b = L.circleMarker(
+                [40.7067, -91.2268],
+                {"bubblingMouseEvents": true, "color": "#ffd400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd400ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c854a1897909256d63087cbb8403d73b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 6<br>State: IA<br>City: Wever
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_decfd1d8dbc2be0baef0b10fee50fff6 = L.circleMarker(
+                [40.7152, -89.2706],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_decfd1d8dbc2be0baef0b10fee50fff6.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: IL<br>City: Eureka
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e5e9a994c2647a7e8430e821e9f628b = L.circleMarker(
+                [40.732, -73.1],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1e5e9a994c2647a7e8430e821e9f628b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: NY<br>City: West Sayville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ff57edbc86714a96838269d172f50700 = L.circleMarker(
+                [40.7699, -73.9511],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ff57edbc86714a96838269d172f50700.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: NY<br>City: New York City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7899c1381e2734bcb7c3cfc8c0ccf29 = L.circleMarker(
+                [40.8618, -85.6067],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_b7899c1381e2734bcb7c3cfc8c0ccf29.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: IN<br>City: Andrews
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d60e029cc2da181ea0211906c2a066b = L.circleMarker(
+                [40.8626, -91.9534],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7d60e029cc2da181ea0211906c2a066b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: IA<br>City: Birmingham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e154a81eebcf5b2a0e415d92af34670 = L.circleMarker(
+                [40.9051, -73.3309],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_4e154a81eebcf5b2a0e415d92af34670.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: NY<br>City: Northport
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b3e4dac6dcee70e2b091317358538801 = L.circleMarker(
+                [41.0001, -78.2357],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_b3e4dac6dcee70e2b091317358538801.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: PA<br>City: Morrisdale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c8d131a0706770d6d9f87d4cbebfcb1b = L.circleMarker(
+                [41.0592, -73.7395],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c8d131a0706770d6d9f87d4cbebfcb1b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: NY<br>City: West Harrison
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3780f8636f0bfeb27e41edc4bb10b2c4 = L.circleMarker(
+                [41.0695, -81.5488],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_3780f8636f0bfeb27e41edc4bb10b2c4.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: OH<br>City: Akron
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1a679026e7a67bdc3fdcb975b709a636 = L.circleMarker(
+                [41.0935, -81.0425],
+                {"bubblingMouseEvents": true, "color": "#ffd400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd400ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1a679026e7a67bdc3fdcb975b709a636.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 6<br>State: OH<br>City: Diamond
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_108a5ce8edf4b059344f5a2d5ddca9f9 = L.circleMarker(
+                [41.1437, -72.2879],
+                {"bubblingMouseEvents": true, "color": "#ffea00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_108a5ce8edf4b059344f5a2d5ddca9f9.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 4<br>State: NY<br>City: Orient
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8dc755855c1a9e358b636f9990cfe2a8 = L.circleMarker(
+                [41.1558, -101.136],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_8dc755855c1a9e358b636f9990cfe2a8.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: NE<br>City: Sutherland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ecb87b87fa83464544bf3657ab63ce37 = L.circleMarker(
+                [41.1901, -74.0436],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ecb87b87fa83464544bf3657ab63ce37.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: NY<br>City: Pomona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd36d149bc8d3a39c370e137b976a77d = L.circleMarker(
+                [41.2153, -90.9879],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_bd36d149bc8d3a39c370e137b976a77d.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: IL<br>City: New Boston
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_96091ffcf663a3720cbb37b116dafe39 = L.circleMarker(
+                [41.229, -85.3244],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_96091ffcf663a3720cbb37b116dafe39.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: IN<br>City: Churubusco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_db7b33ddfcda1405afdbd429c8fada6c = L.circleMarker(
+                [41.3851, -80.1752],
+                {"bubblingMouseEvents": true, "color": "#ff5000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_db7b33ddfcda1405afdbd429c8fada6c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 18<br>State: PA<br>City: Clarks Mills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30cf917a2fb5dd20f3259f228a5cb69f = L.circleMarker(
+                [41.4247, -105.4781],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_30cf917a2fb5dd20f3259f228a5cb69f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 2<br>State: WY<br>City: Laramie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_896e163b9261641a11925c3d7ebcdc03 = L.circleMarker(
+                [41.5224, -71.9934],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_896e163b9261641a11925c3d7ebcdc03.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: CT<br>City: Preston
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5f8aa82ce0d2649bf4abeb9dbc65dd73 = L.circleMarker(
+                [41.55, -87.4569],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_5f8aa82ce0d2649bf4abeb9dbc65dd73.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: IN<br>City: Highland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a8c40368d6deb39b8c0590ee4a630327 = L.circleMarker(
+                [41.5855, -93.6719],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_a8c40368d6deb39b8c0590ee4a630327.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: IA<br>City: Des Moines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_94d8656a97b7c2ff9ae6af9fe4069f6b = L.circleMarker(
+                [41.6414, -96.5232],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_94d8656a97b7c2ff9ae6af9fe4069f6b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: NE<br>City: Hooper
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_81d66ae411f0d62b603fa4a25b65138d = L.circleMarker(
+                [41.6611, -73.0449],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_81d66ae411f0d62b603fa4a25b65138d.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: CT<br>City: Plymouth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_de5951fac7a080437416ab494f465f77 = L.circleMarker(
+                [41.6858, -90.3706],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_de5951fac7a080437416ab494f465f77.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: IA<br>City: Princeton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_95728d65497faa3c1d7e6007d078dcf2 = L.circleMarker(
+                [41.8467, -74.1038],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_95728d65497faa3c1d7e6007d078dcf2.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: NY<br>City: Cottekill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe95ce41c36187e8b86155fd1c703c42 = L.circleMarker(
+                [41.8948, -73.9767],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_fe95ce41c36187e8b86155fd1c703c42.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: NY<br>City: Port Ewen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f678892d4a34376bb9c7bbcbccce5a7f = L.circleMarker(
+                [42.0144, -88.0935],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f678892d4a34376bb9c7bbcbccce5a7f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: IL<br>City: Schaumburg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_adc5aef24df00f2ddeec881d698d469e = L.circleMarker(
+                [42.0158, -73.2913],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_adc5aef24df00f2ddeec881d698d469e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: CT<br>City: East Canaan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6db3b9d991ace2b297a04faa4e9bc29f = L.circleMarker(
+                [42.0695, -75.7967],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6db3b9d991ace2b297a04faa4e9bc29f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: NY<br>City: Kirkwood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e8151b5b6a488ed274c3cc513456d0a7 = L.circleMarker(
+                [42.0789, -92.3763],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_e8151b5b6a488ed274c3cc513456d0a7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: IA<br>City: Clutier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6a66187b14fc3091d53d581acd72f82b = L.circleMarker(
+                [42.1001, -73.3611],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_6a66187b14fc3091d53d581acd72f82b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: MA<br>City: Sheffield
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc548dd97e03fe095795fd629e4cf621 = L.circleMarker(
+                [42.1239, -79.1895],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_bc548dd97e03fe095795fd629e4cf621.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: NY<br>City: Falconer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1ae46d6e41defad937f0da1287520d34 = L.circleMarker(
+                [42.1808, -112.262],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1ae46d6e41defad937f0da1287520d34.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: ID<br>City: Malad City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e1cb23dacab1b64c1b94992958d9a268 = L.circleMarker(
+                [42.2619, -94.5566],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_e1cb23dacab1b64c1b94992958d9a268.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: IA<br>City: Lohrville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d06da1cdfec6370fe0f930bb7394cb59 = L.circleMarker(
+                [42.2848, -71.7205],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d06da1cdfec6370fe0f930bb7394cb59.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: MA<br>City: Shrewsbury
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_41472f9d0ed873c16163cc9f35e40b5f = L.circleMarker(
+                [42.3496, -73.5873],
+                {"bubblingMouseEvents": true, "color": "#ff6600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_41472f9d0ed873c16163cc9f35e40b5f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 16<br>State: NY<br>City: Chatham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3f5b6fa57d98832eb88bb2116a2c257 = L.circleMarker(
+                [42.3669, -82.9938],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f3f5b6fa57d98832eb88bb2116a2c257.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: MI<br>City: Detroit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f9e94ea2c97c854525246314b8ef835b = L.circleMarker(
+                [42.3958, -83.3772],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f9e94ea2c97c854525246314b8ef835b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: MI<br>City: Livonia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f24c266e35188b3b47c2f6a024adabb5 = L.circleMarker(
+                [42.4969, -83.2911],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f24c266e35188b3b47c2f6a024adabb5.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: MI<br>City: Southfield
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_41794423454262a79bb789aa48c031d9 = L.circleMarker(
+                [42.52, -78.6847],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_41794423454262a79bb789aa48c031d9.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: NY<br>City: Springville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_acab04fff9b98de43939cd94015c6a2c = L.circleMarker(
+                [42.5545, -90.3508],
+                {"bubblingMouseEvents": true, "color": "#fff500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff500ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_acab04fff9b98de43939cd94015c6a2c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 3<br>State: WI<br>City: Benton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_877701c0d69dad6f8122f773e8b7cc5d = L.circleMarker(
+                [42.73, -104.7024],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_877701c0d69dad6f8122f773e8b7cc5d.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: WY<br>City: Manville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bea842ecf9f01d235d3a31d490367331 = L.circleMarker(
+                [42.8178, -72.0275],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_bea842ecf9f01d235d3a31d490367331.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: NH<br>City: Jaffrey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f21d9c6e8c066c3f4dea474c85b9770 = L.circleMarker(
+                [42.8546, -75.6605],
+                {"bubblingMouseEvents": true, "color": "#ff8700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8700ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_9f21d9c6e8c066c3f4dea474c85b9770.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 13<br>State: NY<br>City: West Eaton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f8c13cd2b90b80aa4dae817a74b24d6f = L.circleMarker(
+                [42.9576, -75.4838],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f8c13cd2b90b80aa4dae817a74b24d6f.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: NY<br>City: Oriskany Falls
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_343d17272f005d961150988c250e5828 = L.circleMarker(
+                [42.958, -77.3083],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_343d17272f005d961150988c250e5828.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: NY<br>City: Farmington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4d4cb7d8f1e4bca8343dcbb97b016b95 = L.circleMarker(
+                [42.9993, -88.2196],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_4d4cb7d8f1e4bca8343dcbb97b016b95.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: WI<br>City: Waukesha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ca6de2cb4600aad121f4b098d7ec86d7 = L.circleMarker(
+                [43.0261, -94.4064],
+                {"bubblingMouseEvents": true, "color": "#ff7100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7100ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ca6de2cb4600aad121f4b098d7ec86d7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 15<br>State: IA<br>City: Whittemore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1cc45f00f5469077b25cf8c2239b103 = L.circleMarker(
+                [43.033, -77.1575],
+                {"bubblingMouseEvents": true, "color": "#ffea00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d1cc45f00f5469077b25cf8c2239b103.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 4<br>State: NY<br>City: Port Gibson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d6e01998a7a933e84a8ec80d34b5e677 = L.circleMarker(
+                [43.0397, -77.6871],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d6e01998a7a933e84a8ec80d34b5e677.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: NY<br>City: West Henrietta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7009738235cc9e6d27375fb21e049d24 = L.circleMarker(
+                [43.4512, -71.489],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7009738235cc9e6d27375fb21e049d24.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: NH<br>City: Belmont
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d37a6070fb917c5d6724e1409e998d21 = L.circleMarker(
+                [43.4987, -90.2796],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_d37a6070fb917c5d6724e1409e998d21.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: WI<br>City: Cazenovia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b03a5e5e448808348879283253d5b9e5 = L.circleMarker(
+                [43.6498, -116.4306],
+                {"bubblingMouseEvents": true, "color": "#ffdf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdf00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_b03a5e5e448808348879283253d5b9e5.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 5<br>State: ID<br>City: Meridian
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ab2710167eaa9a9ce7407e6a13edcb06 = L.circleMarker(
+                [43.8967, -89.8219],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ab2710167eaa9a9ce7407e6a13edcb06.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: WI<br>City: Adams
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_725aced60473662cd1b4f9b55bcebcab = L.circleMarker(
+                [44.0948, -70.239],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_725aced60473662cd1b4f9b55bcebcab.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: ME<br>City: Auburn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2a462f478f407eaf58d73bc58f65fca2 = L.circleMarker(
+                [44.2378, -95.2739],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_2a462f478f407eaf58d73bc58f65fca2.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: MN<br>City: Lamberton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_31b6f24eef5f30bdf56b910ad1c1519e = L.circleMarker(
+                [44.3481, -89.1101],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_31b6f24eef5f30bdf56b910ad1c1519e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: WI<br>City: Waupaca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_99a8ccc1f006c203dce49724fe48387b = L.circleMarker(
+                [44.4477, -93.4252],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_99a8ccc1f006c203dce49724fe48387b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: MN<br>City: Lonsdale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4fb0480c90d3534c6b0e5ab3faf635f8 = L.circleMarker(
+                [44.4971, -67.9503],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_4fb0480c90d3534c6b0e5ab3faf635f8.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: ME<br>City: Steuben
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a77325780a37c742a27fb0d65edcfee1 = L.circleMarker(
+                [44.5592, -87.8235],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_a77325780a37c742a27fb0d65edcfee1.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: WI<br>City: New Franken
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cda29b1ab19a0f5b574d9df327ac4384 = L.circleMarker(
+                [44.8021, -122.7624],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_cda29b1ab19a0f5b574d9df327ac4384.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: OR<br>City: Stayton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ac8c434e95348e93e4f9816d2acacb27 = L.circleMarker(
+                [44.8605, -85.8138],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_ac8c434e95348e93e4f9816d2acacb27.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: MI<br>City: Cedar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_71c9b60ea6f4f7ef91af9a15993f547d = L.circleMarker(
+                [44.8955, -85.4082],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_71c9b60ea6f4f7ef91af9a15993f547d.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: MI<br>City: Elk Rapids
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_14c62e56f200fb0e49ecdfde2dfcf076 = L.circleMarker(
+                [44.9437, -91.0294],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_14c62e56f200fb0e49ecdfde2dfcf076.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: WI<br>City: Boyd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_82aa3523154495c28633bf2856419aba = L.circleMarker(
+                [44.9595, -93.8482],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_82aa3523154495c28633bf2856419aba.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: MN<br>City: Watertown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3d785b4bd27e642d8ade37d7fbf6c137 = L.circleMarker(
+                [45.2857, -108.9082],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_3d785b4bd27e642d8ade37d7fbf6c137.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: MT<br>City: Bridger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b2691110f012b187916606c1bd74d456 = L.circleMarker(
+                [45.3099, -122.9685],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_b2691110f012b187916606c1bd74d456.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: OR<br>City: Newberg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b2b4b726de031e1ae75310a382d81328 = L.circleMarker(
+                [45.3637, -84.4695],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_b2b4b726de031e1ae75310a382d81328.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: MI<br>City: Afton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1c0c94ebbc2bf99f90eb03704944499e = L.circleMarker(
+                [45.4093, -122.6847],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1c0c94ebbc2bf99f90eb03704944499e.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: OR<br>City: Lake Oswego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fa8b30fac6086e5d07a03ab3945df04c = L.circleMarker(
+                [45.5303, -122.7033],
+                {"bubblingMouseEvents": true, "color": "#ff9200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9200ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_fa8b30fac6086e5d07a03ab3945df04c.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 12<br>State: OR<br>City: Portland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8dc1c1987d282b7dae76c4cf968b7c97 = L.circleMarker(
+                [45.671, -121.8686],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_8dc1c1987d282b7dae76c4cf968b7c97.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: OR<br>City: Cascade Locks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e294b967fb50bad8b442b20144d62f97 = L.circleMarker(
+                [45.6892, -122.6616],
+                {"bubblingMouseEvents": true, "color": "#fff500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff500ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_e294b967fb50bad8b442b20144d62f97.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 3<br>State: WA<br>City: Vancouver
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc0e5ba041a57eb08e5aed5f403bdb7a = L.circleMarker(
+                [45.7084, -101.1546],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_bc0e5ba041a57eb08e5aed5f403bdb7a.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: SD<br>City: Mc Intosh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e5a3efa57b1359d4bf50886a7a0cb5f0 = L.circleMarker(
+                [45.7205, -98.5534],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_e5a3efa57b1359d4bf50886a7a0cb5f0.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: SD<br>City: Barnard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a7b1bca59926c47dba4066fb4ab82a2 = L.circleMarker(
+                [45.7364, -94.1658],
+                {"bubblingMouseEvents": true, "color": "#ffbe00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbe00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7a7b1bca59926c47dba4066fb4ab82a2.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 8<br>State: MN<br>City: Rice
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4b3cddbe2a0dbb1bbc5713cc50b247a2 = L.circleMarker(
+                [47.0874, -93.9196],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_4b3cddbe2a0dbb1bbc5713cc50b247a2.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: MN<br>City: Remer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a670910eb2c0df4a5a82d3738bd4bd31 = L.circleMarker(
+                [47.0999, -96.727],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_a670910eb2c0df4a5a82d3738bd4bd31.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: MN<br>City: Georgetown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_96b8e39cd3bbbba8479a88c9be133da8 = L.circleMarker(
+                [47.1709, -100.7944],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_96b8e39cd3bbbba8479a88c9be133da8.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: ND<br>City: Wilton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f6a8dafa83cd11030e2f08b7f89aa505 = L.circleMarker(
+                [47.3551, -96.798],
+                {"bubblingMouseEvents": true, "color": "#ffa800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa800ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_f6a8dafa83cd11030e2f08b7f89aa505.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 10<br>State: MN<br>City: Halstad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_145ad49b9f8c45e0b688c93d9de81e26 = L.circleMarker(
+                [47.4974, -122.0107],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_145ad49b9f8c45e0b688c93d9de81e26.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: WA<br>City: Issaquah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_acb9ab43b2bbc0f92f0025c997fc6350 = L.circleMarker(
+                [47.5412, -122.275],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_acb9ab43b2bbc0f92f0025c997fc6350.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: WA<br>City: Seattle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d34417dd21b9585dbdfb4857ad2d608 = L.circleMarker(
+                [47.7068, -97.2092],
+                {"bubblingMouseEvents": true, "color": "#ff6600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_7d34417dd21b9585dbdfb4857ad2d608.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 16<br>State: ND<br>City: Reynolds
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_08cecccc9cfa2ee50d20c5c118742e3b = L.circleMarker(
+                [47.9657, -116.868],
+                {"bubblingMouseEvents": true, "color": "#ffb300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb300ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_08cecccc9cfa2ee50d20c5c118742e3b.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 9<br>State: ID<br>City: Spirit Lake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_16e3c0646d93f060bc79069af46385b1 = L.circleMarker(
+                [48.2777, -112.8456],
+                {"bubblingMouseEvents": true, "color": "#ff9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9d00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_16e3c0646d93f060bc79069af46385b1.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 11<br>State: MT<br>City: Heart Butte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1840ea841ec805313406c505f95c0a21 = L.circleMarker(
+                [48.8328, -108.3961],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_1840ea841ec805313406c505f95c0a21.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: MT<br>City: Turner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c4b5b7b141671aea39672ab8fb48063a = L.circleMarker(
+                [48.8878, -118.2105],
+                {"bubblingMouseEvents": true, "color": "#ffc900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc900ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_c4b5b7b141671aea39672ab8fb48063a.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 7<br>State: WA<br>City: Orient
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_330490201b4cd987bc6ccec5621a88a7 = L.circleMarker(
+                [55.4732, -133.1171],
+                {"bubblingMouseEvents": true, "color": "#ff7c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7c00ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+        
+    
+            circle_marker_330490201b4cd987bc6ccec5621a88a7.bindTooltip(
+                `<div>
+                     Fraudulent Transactions: 14<br>State: AK<br>City: Craig
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+    var color_map_6d4d487c110ad53cbac9903209477bed = {};
+
+    
+    color_map_6d4d487c110ad53cbac9903209477bed.color = d3.scale.threshold()
+              .domain([2.0, 2.0340681362725452, 2.06813627254509, 2.1022044088176353, 2.1362725450901805, 2.1703406813627253, 2.2044088176352705, 2.2384769539078158, 2.2725450901803605, 2.306613226452906, 2.340681362725451, 2.374749498997996, 2.408817635270541, 2.4428857715430863, 2.476953907815631, 2.5110220440881763, 2.5450901803607215, 2.579158316633267, 2.6132264529058116, 2.647294589178357, 2.681362725450902, 2.715430861723447, 2.749498997995992, 2.7835671342685373, 2.817635270541082, 2.8517034068136273, 2.8857715430861726, 2.9198396793587174, 2.9539078156312626, 2.987975951903808, 3.0220440881763526, 3.056112224448898, 3.090180360721443, 3.124248496993988, 3.158316633266533, 3.1923847695390783, 3.226452905811623, 3.2605210420841684, 3.2945891783567136, 3.3286573146292584, 3.3627254509018036, 3.396793587174349, 3.4308617234468937, 3.464929859719439, 3.498997995991984, 3.533066132264529, 3.567134268537074, 3.6012024048096194, 3.635270541082164, 3.6693386773547094, 3.7034068136272547, 3.7374749498997994, 3.7715430861723447, 3.80561122244489, 3.8396793587174347, 3.87374749498998, 3.907815631262525, 3.94188376753507, 3.975951903807615, 4.01002004008016, 4.044088176352705, 4.07815631262525, 4.112224448897796, 4.1462925851703405, 4.180360721442886, 4.214428857715431, 4.248496993987976, 4.2825651302605205, 4.316633266533066, 4.350701402805611, 4.384769539078157, 4.4188376753507015, 4.452905811623246, 4.486973947895791, 4.521042084168337, 4.555110220440882, 4.589178356713427, 4.623246492985972, 4.657314629258517, 4.691382765531062, 4.725450901803607, 4.759519038076153, 4.793587174348698, 4.8276553106212425, 4.861723446893787, 4.895791583166332, 4.929859719438878, 4.9639278557114235, 4.997995991983968, 5.032064128256513, 5.066132264529058, 5.100200400801603, 5.134268537074148, 5.168336673346694, 5.202404809619239, 5.236472945891784, 5.270541082164328, 5.304609218436873, 5.338677354709419, 5.3727454909819645, 5.406813627254509, 5.440881763527054, 5.474949899799599, 5.509018036072144, 5.543086172344689, 5.577154308617235, 5.61122244488978, 5.645290581162325, 5.679358717434869, 5.713426853707414, 5.74749498997996, 5.781563126252506, 5.81563126252505, 5.849699398797595, 5.88376753507014, 5.917835671342685, 5.95190380761523, 5.985971943887776, 6.020040080160321, 6.054108216432866, 6.0881763527054105, 6.122244488977956, 6.156312625250501, 6.190380761523046, 6.224448897795591, 6.258517034068136, 6.292585170340681, 6.326653306613227, 6.3607214428857715, 6.394789579158316, 6.428857715430862, 6.462925851703407, 6.4969939879759515, 6.531062124248497, 6.565130260521042, 6.599198396793587, 6.6332665330661325, 6.667334669338677, 6.701402805611222, 6.735470941883768, 6.7695390781563125, 6.803607214428857, 6.837675350701403, 6.871743486973948, 6.905811623246493, 6.939879759519038, 6.973947895791583, 7.008016032064128, 7.0420841683366735, 7.076152304609218, 7.110220440881764, 7.144288577154309, 7.1783567134268536, 7.212424849699399, 7.246492985971944, 7.280561122244489, 7.3146292585170345, 7.348697394789579, 7.382765531062124, 7.41683366733467, 7.4509018036072145, 7.484969939879759, 7.519038076152305, 7.55310621242485, 7.587174348697395, 7.62124248496994, 7.655310621242485, 7.68937875751503, 7.7234468937875755, 7.75751503006012, 7.791583166332665, 7.825651302605211, 7.859719438877756, 7.8937875751503, 7.927855711422846, 7.961923847695391, 7.995991983967936, 8.030060120240481, 8.064128256513026, 8.098196392785571, 8.132264529058116, 8.16633266533066, 8.200400801603205, 8.234468937875752, 8.268537074148297, 8.302605210420841, 8.336673346693388, 8.370741482965933, 8.404809619238478, 8.438877755511022, 8.472945891783567, 8.507014028056112, 8.541082164328657, 8.575150300601202, 8.609218436873746, 8.643286573146293, 8.677354709418838, 8.711422845691382, 8.745490981963929, 8.779559118236474, 8.813627254509019, 8.847695390781563, 8.881763527054108, 8.915831663326653, 8.949899799599198, 8.983967935871743, 9.018036072144287, 9.052104208416834, 9.086172344689379, 9.120240480961924, 9.15430861723447, 9.188376753507015, 9.22244488977956, 9.256513026052104, 9.29058116232465, 9.324649298597194, 9.358717434869739, 9.392785571142284, 9.426853707414828, 9.460921843687375, 9.49498997995992, 9.529058116232465, 9.563126252505011, 9.597194388777556, 9.6312625250501, 9.665330661322646, 9.69939879759519, 9.733466933867735, 9.76753507014028, 9.801603206412825, 9.83567134268537, 9.869739478957916, 9.90380761523046, 9.937875751503006, 9.971943887775552, 10.006012024048097, 10.040080160320642, 10.074148296593187, 10.108216432865731, 10.142284569138276, 10.176352705410821, 10.210420841683367, 10.244488977955912, 10.278557114228457, 10.312625250501002, 10.346693386773547, 10.380761523046091, 10.414829659318638, 10.448897795591183, 10.482965931863728, 10.517034068136272, 10.551102204408817, 10.585170340681362, 10.619238476953909, 10.653306613226453, 10.687374749498998, 10.721442885771543, 10.755511022044088, 10.789579158316633, 10.823647294589179, 10.857715430861724, 10.891783567134269, 10.925851703406813, 10.959919839679358, 10.993987975951903, 11.02805611222445, 11.062124248496994, 11.09619238476954, 11.130260521042084, 11.164328657314629, 11.198396793587174, 11.23246492985972, 11.266533066132265, 11.30060120240481, 11.334669338677354, 11.3687374749499, 11.402805611222444, 11.43687374749499, 11.470941883767535, 11.50501002004008, 11.539078156312625, 11.57314629258517, 11.607214428857715, 11.641282565130261, 11.675350701402806, 11.70941883767535, 11.743486973947896, 11.77755511022044, 11.811623246492985, 11.845691382765532, 11.879759519038076, 11.913827655310621, 11.947895791583166, 11.98196392785571, 12.016032064128256, 12.050100200400802, 12.084168336673347, 12.118236472945892, 12.152304609218437, 12.186372745490981, 12.220440881763528, 12.254509018036073, 12.288577154308618, 12.322645290581162, 12.356713426853707, 12.390781563126252, 12.424849699398798, 12.458917835671343, 12.492985971943888, 12.527054108216433, 12.561122244488978, 12.595190380761522, 12.629258517034069, 12.663326653306614, 12.697394789579159, 12.731462925851703, 12.765531062124248, 12.799599198396793, 12.83366733466934, 12.867735470941884, 12.901803607214429, 12.935871743486974, 12.969939879759519, 13.004008016032063, 13.03807615230461, 13.072144288577155, 13.1062124248497, 13.140280561122244, 13.17434869739479, 13.208416833667334, 13.24248496993988, 13.276553106212425, 13.31062124248497, 13.344689378757515, 13.37875751503006, 13.412825651302605, 13.446893787575151, 13.480961923847696, 13.51503006012024, 13.549098196392785, 13.58316633266533, 13.617234468937875, 13.651302605210422, 13.685370741482966, 13.719438877755511, 13.753507014028056, 13.7875751503006, 13.821643286573146, 13.855711422845692, 13.889779559118237, 13.923847695390782, 13.957915831663327, 13.991983967935871, 14.026052104208416, 14.060120240480963, 14.094188376753507, 14.128256513026052, 14.162324649298597, 14.196392785571142, 14.230460921843687, 14.264529058116233, 14.298597194388778, 14.332665330661323, 14.366733466933868, 14.400801603206412, 14.434869739478957, 14.468937875751504, 14.503006012024048, 14.537074148296593, 14.571142284569138, 14.605210420841683, 14.639278557114228, 14.673346693386774, 14.707414829659319, 14.741482965931864, 14.775551102204409, 14.809619238476953, 14.843687374749498, 14.877755511022045, 14.91182364729459, 14.945891783567134, 14.97995991983968, 15.014028056112224, 15.048096192384769, 15.082164328657315, 15.11623246492986, 15.150300601202405, 15.18436873747495, 15.218436873747494, 15.25250501002004, 15.286573146292586, 15.32064128256513, 15.354709418837675, 15.38877755511022, 15.422845691382765, 15.45691382765531, 15.490981963927856, 15.525050100200401, 15.559118236472946, 15.59318637274549, 15.627254509018035, 15.661322645290582, 15.695390781563127, 15.729458917835672, 15.763527054108216, 15.797595190380761, 15.831663326653306, 15.865731462925853, 15.899799599198397, 15.933867735470942, 15.967935871743487, 16.00200400801603, 16.036072144288575, 16.070140280561123, 16.104208416833668, 16.138276553106213, 16.172344689378757, 16.206412825651302, 16.240480961923847, 16.274549098196395, 16.30861723446894, 16.342685370741485, 16.37675350701403, 16.410821643286575, 16.44488977955912, 16.478957915831664, 16.51302605210421, 16.547094188376754, 16.5811623246493, 16.615230460921843, 16.649298597194388, 16.683366733466933, 16.717434869739478, 16.751503006012022, 16.785571142284567, 16.819639278557112, 16.853707414829657, 16.887775551102205, 16.92184368737475, 16.955911823647295, 16.98997995991984, 17.024048096192384, 17.05811623246493, 17.092184368737477, 17.126252505010022, 17.160320641282567, 17.194388777555112, 17.228456913827657, 17.2625250501002, 17.296593186372746, 17.33066132264529, 17.364729458917836, 17.39879759519038, 17.432865731462925, 17.46693386773547, 17.501002004008015, 17.53507014028056, 17.569138276553105, 17.60320641282565, 17.637274549098194, 17.67134268537074, 17.705410821643287, 17.739478957915832, 17.773547094188377, 17.80761523046092, 17.841683366733466, 17.87575150300601, 17.90981963927856, 17.943887775551104, 17.97795591182365, 18.012024048096194, 18.04609218436874, 18.080160320641284, 18.11422845691383, 18.148296593186373, 18.182364729458918, 18.216432865731463, 18.250501002004007, 18.284569138276552, 18.318637274549097, 18.352705410821642, 18.386773547094187, 18.420841683366735, 18.45490981963928, 18.488977955911825, 18.52304609218437, 18.557114228456914, 18.59118236472946, 18.625250501002004, 18.65931863727455, 18.693386773547093, 18.727454909819638, 18.761523046092183, 18.795591182364728, 18.829659318637276, 18.86372745490982, 18.897795591182366, 18.93186372745491, 18.965931863727455, 19.0])
+              .range(['#ffff00ff', '#ffff00ff', '#ffff00ff', '#fffe00ff', '#fffe00ff', '#fffe00ff', '#fffd00ff', '#fffd00ff', '#fffd00ff', '#fffc00ff', '#fffc00ff', '#fffb00ff', '#fffb00ff', '#fffb00ff', '#fffa00ff', '#fffa00ff', '#fffa00ff', '#fff900ff', '#fff900ff', '#fff800ff', '#fff800ff', '#fff800ff', '#fff700ff', '#fff700ff', '#fff700ff', '#fff600ff', '#fff600ff', '#fff500ff', '#fff500ff', '#fff500ff', '#fff400ff', '#fff400ff', '#fff400ff', '#fff300ff', '#fff300ff', '#fff200ff', '#fff200ff', '#fff200ff', '#fff100ff', '#fff100ff', '#fff100ff', '#fff000ff', '#fff000ff', '#ffef00ff', '#ffef00ff', '#ffef00ff', '#ffee00ff', '#ffee00ff', '#ffee00ff', '#ffed00ff', '#ffed00ff', '#ffec00ff', '#ffec00ff', '#ffec00ff', '#ffeb00ff', '#ffeb00ff', '#ffeb00ff', '#ffea00ff', '#ffea00ff', '#ffe900ff', '#ffe900ff', '#ffe900ff', '#ffe800ff', '#ffe800ff', '#ffe800ff', '#ffe700ff', '#ffe700ff', '#ffe600ff', '#ffe600ff', '#ffe600ff', '#ffe500ff', '#ffe500ff', '#ffe500ff', '#ffe400ff', '#ffe400ff', '#ffe300ff', '#ffe300ff', '#ffe300ff', '#ffe200ff', '#ffe200ff', '#ffe200ff', '#ffe100ff', '#ffe100ff', '#ffe000ff', '#ffe000ff', '#ffe000ff', '#ffdf00ff', '#ffdf00ff', '#ffdf00ff', '#ffde00ff', '#ffde00ff', '#ffdd00ff', '#ffdd00ff', '#ffdd00ff', '#ffdc00ff', '#ffdc00ff', '#ffdc00ff', '#ffdb00ff', '#ffdb00ff', '#ffda00ff', '#ffda00ff', '#ffda00ff', '#ffd900ff', '#ffd900ff', '#ffd900ff', '#ffd800ff', '#ffd800ff', '#ffd700ff', '#ffd700ff', '#ffd700ff', '#ffd600ff', '#ffd600ff', '#ffd600ff', '#ffd500ff', '#ffd500ff', '#ffd400ff', '#ffd400ff', '#ffd400ff', '#ffd300ff', '#ffd300ff', '#ffd300ff', '#ffd200ff', '#ffd200ff', '#ffd100ff', '#ffd100ff', '#ffd100ff', '#ffd000ff', '#ffd000ff', '#ffd000ff', '#ffcf00ff', '#ffcf00ff', '#ffce00ff', '#ffce00ff', '#ffce00ff', '#ffcd00ff', '#ffcd00ff', '#ffcd00ff', '#ffcc00ff', '#ffcc00ff', '#ffcb00ff', '#ffcb00ff', '#ffcb00ff', '#ffca00ff', '#ffca00ff', '#ffca00ff', '#ffc900ff', '#ffc900ff', '#ffc800ff', '#ffc800ff', '#ffc800ff', '#ffc700ff', '#ffc700ff', '#ffc700ff', '#ffc600ff', '#ffc600ff', '#ffc500ff', '#ffc500ff', '#ffc500ff', '#ffc400ff', '#ffc400ff', '#ffc400ff', '#ffc300ff', '#ffc300ff', '#ffc300ff', '#ffc200ff', '#ffc200ff', '#ffc100ff', '#ffc100ff', '#ffc100ff', '#ffc000ff', '#ffc000ff', '#ffc000ff', '#ffbf00ff', '#ffbf00ff', '#ffbe00ff', '#ffbe00ff', '#ffbe00ff', '#ffbd00ff', '#ffbd00ff', '#ffbd00ff', '#ffbc00ff', '#ffbc00ff', '#ffbb00ff', '#ffbb00ff', '#ffbb00ff', '#ffba00ff', '#ffba00ff', '#ffba00ff', '#ffb900ff', '#ffb900ff', '#ffb800ff', '#ffb800ff', '#ffb800ff', '#ffb700ff', '#ffb700ff', '#ffb700ff', '#ffb600ff', '#ffb600ff', '#ffb500ff', '#ffb500ff', '#ffb500ff', '#ffb400ff', '#ffb400ff', '#ffb400ff', '#ffb300ff', '#ffb300ff', '#ffb200ff', '#ffb200ff', '#ffb200ff', '#ffb100ff', '#ffb100ff', '#ffb100ff', '#ffb000ff', '#ffb000ff', '#ffaf00ff', '#ffaf00ff', '#ffaf00ff', '#ffae00ff', '#ffae00ff', '#ffae00ff', '#ffad00ff', '#ffad00ff', '#ffac00ff', '#ffac00ff', '#ffac00ff', '#ffab00ff', '#ffab00ff', '#ffab00ff', '#ffaa00ff', '#ffaa00ff', '#ffa900ff', '#ffa900ff', '#ffa900ff', '#ffa800ff', '#ffa800ff', '#ffa800ff', '#ffa700ff', '#ffa700ff', '#ffa600ff', '#ffa600ff', '#ffa600ff', '#ffa500ff', '#ffa500ff', '#ffa500ff', '#ffa400ff', '#ffa400ff', '#ffa300ff', '#ffa300ff', '#ffa300ff', '#ffa200ff', '#ffa200ff', '#ffa200ff', '#ffa100ff', '#ffa100ff', '#ffa000ff', '#ffa000ff', '#ffa000ff', '#ff9f00ff', '#ff9f00ff', '#ff9f00ff', '#ff9e00ff', '#ff9e00ff', '#ff9d00ff', '#ff9d00ff', '#ff9d00ff', '#ff9c00ff', '#ff9c00ff', '#ff9c00ff', '#ff9b00ff', '#ff9b00ff', '#ff9a00ff', '#ff9a00ff', '#ff9a00ff', '#ff9900ff', '#ff9900ff', '#ff9900ff', '#ff9800ff', '#ff9800ff', '#ff9700ff', '#ff9700ff', '#ff9700ff', '#ff9600ff', '#ff9600ff', '#ff9600ff', '#ff9500ff', '#ff9500ff', '#ff9400ff', '#ff9400ff', '#ff9400ff', '#ff9300ff', '#ff9300ff', '#ff9300ff', '#ff9200ff', '#ff9200ff', '#ff9100ff', '#ff9100ff', '#ff9100ff', '#ff9000ff', '#ff9000ff', '#ff9000ff', '#ff8f00ff', '#ff8f00ff', '#ff8e00ff', '#ff8e00ff', '#ff8e00ff', '#ff8d00ff', '#ff8d00ff', '#ff8d00ff', '#ff8c00ff', '#ff8c00ff', '#ff8b00ff', '#ff8b00ff', '#ff8b00ff', '#ff8a00ff', '#ff8a00ff', '#ff8a00ff', '#ff8900ff', '#ff8900ff', '#ff8900ff', '#ff8800ff', '#ff8800ff', '#ff8700ff', '#ff8700ff', '#ff8700ff', '#ff8600ff', '#ff8600ff', '#ff8600ff', '#ff8500ff', '#ff8500ff', '#ff8400ff', '#ff8400ff', '#ff8400ff', '#ff8300ff', '#ff8300ff', '#ff8300ff', '#ff8200ff', '#ff8200ff', '#ff8100ff', '#ff8100ff', '#ff8100ff', '#ff8000ff', '#ff8000ff', '#ff8000ff', '#ff7f00ff', '#ff7f00ff', '#ff7e00ff', '#ff7e00ff', '#ff7e00ff', '#ff7d00ff', '#ff7d00ff', '#ff7d00ff', '#ff7c00ff', '#ff7c00ff', '#ff7b00ff', '#ff7b00ff', '#ff7b00ff', '#ff7a00ff', '#ff7a00ff', '#ff7a00ff', '#ff7900ff', '#ff7900ff', '#ff7800ff', '#ff7800ff', '#ff7800ff', '#ff7700ff', '#ff7700ff', '#ff7700ff', '#ff7600ff', '#ff7600ff', '#ff7500ff', '#ff7500ff', '#ff7500ff', '#ff7400ff', '#ff7400ff', '#ff7400ff', '#ff7300ff', '#ff7300ff', '#ff7200ff', '#ff7200ff', '#ff7200ff', '#ff7100ff', '#ff7100ff', '#ff7100ff', '#ff7000ff', '#ff7000ff', '#ff6f00ff', '#ff6f00ff', '#ff6f00ff', '#ff6e00ff', '#ff6e00ff', '#ff6e00ff', '#ff6d00ff', '#ff6d00ff', '#ff6c00ff', '#ff6c00ff', '#ff6c00ff', '#ff6b00ff', '#ff6b00ff', '#ff6b00ff', '#ff6a00ff', '#ff6a00ff', '#ff6900ff', '#ff6900ff', '#ff6900ff', '#ff6800ff', '#ff6800ff', '#ff6800ff', '#ff6700ff', '#ff6700ff', '#ff6600ff', '#ff6600ff', '#ff6600ff', '#ff6500ff', '#ff6500ff', '#ff6500ff', '#ff6400ff', '#ff6400ff', '#ff6300ff', '#ff6300ff', '#ff6300ff', '#ff6200ff', '#ff6200ff', '#ff6200ff', '#ff6100ff', '#ff6100ff', '#ff6000ff', '#ff6000ff', '#ff6000ff', '#ff5f00ff', '#ff5f00ff', '#ff5f00ff', '#ff5e00ff', '#ff5e00ff', '#ff5d00ff', '#ff5d00ff', '#ff5d00ff', '#ff5c00ff', '#ff5c00ff', '#ff5c00ff', '#ff5b00ff', '#ff5b00ff', '#ff5a00ff', '#ff5a00ff', '#ff5a00ff', '#ff5900ff', '#ff5900ff', '#ff5900ff', '#ff5800ff', '#ff5800ff', '#ff5700ff', '#ff5700ff', '#ff5700ff', '#ff5600ff', '#ff5600ff', '#ff5600ff', '#ff5500ff', '#ff5500ff', '#ff5400ff', '#ff5400ff', '#ff5400ff', '#ff5300ff', '#ff5300ff', '#ff5300ff', '#ff5200ff', '#ff5200ff', '#ff5100ff', '#ff5100ff', '#ff5100ff', '#ff5000ff', '#ff5000ff', '#ff5000ff', '#ff4f00ff', '#ff4f00ff', '#ff4e00ff', '#ff4e00ff', '#ff4e00ff', '#ff4d00ff', '#ff4d00ff', '#ff4d00ff', '#ff4c00ff', '#ff4c00ff', '#ff4c00ff', '#ff4b00ff', '#ff4b00ff', '#ff4a00ff', '#ff4a00ff', '#ff4a00ff', '#ff4900ff', '#ff4900ff', '#ff4900ff', '#ff4800ff', '#ff4800ff', '#ff4700ff', '#ff4700ff', '#ff4700ff', '#ff4600ff', '#ff4600ff', '#ff4600ff', '#ff4500ff', '#ff4500ff']);
+    
+
+    color_map_6d4d487c110ad53cbac9903209477bed.x = d3.scale.linear()
+              .domain([2.0, 19.0])
+              .range([0, 450 - 50]);
+
+    color_map_6d4d487c110ad53cbac9903209477bed.legend = L.control({position: 'topright'});
+    color_map_6d4d487c110ad53cbac9903209477bed.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_6d4d487c110ad53cbac9903209477bed.legend.addTo(map_63f2696a38afd375c2eca5bbc9feb177);
+
+    color_map_6d4d487c110ad53cbac9903209477bed.xAxis = d3.svg.axis()
+        .scale(color_map_6d4d487c110ad53cbac9903209477bed.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([2.0, 19.0]);
+
+    color_map_6d4d487c110ad53cbac9903209477bed.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_6d4d487c110ad53cbac9903209477bed.g = color_map_6d4d487c110ad53cbac9903209477bed.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_6d4d487c110ad53cbac9903209477bed.g.selectAll("rect")
+        .data(color_map_6d4d487c110ad53cbac9903209477bed.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_6d4d487c110ad53cbac9903209477bed.x(color_map_6d4d487c110ad53cbac9903209477bed.color.domain()[i - 1]) : color_map_6d4d487c110ad53cbac9903209477bed.x.range()[0],
+            x1: i < color_map_6d4d487c110ad53cbac9903209477bed.color.domain().length ? color_map_6d4d487c110ad53cbac9903209477bed.x(color_map_6d4d487c110ad53cbac9903209477bed.color.domain()[i]) : color_map_6d4d487c110ad53cbac9903209477bed.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_6d4d487c110ad53cbac9903209477bed.g.call(color_map_6d4d487c110ad53cbac9903209477bed.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Number of Fraudulent Transactions");
+</script>
+</html>
